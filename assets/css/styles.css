@@ -74,12 +74,10 @@ img{
 
 .fxxs{
     transition: 1s;
-    position: static;
 }
 
 .fxxs:hover{
     transform: translate(0,-20px) scale(1.1);
-    position: static;
 }
 
 .bg-ab{
