@@ -1,0 +1,157 @@
+:root{
+    --first-color: #FFBC65;
+    --second-color: #FEFBF3;
+    --third-color: #F8F0DF;
+    --fourth-color: #5C476F;
+    --fifth-color: #AC4C5E;
+}
+
+html{
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+body{
+    margin:0%;
+    
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    background-color: var(--first-color);
+    padding-left: 150px;
+    position: sticky;
+    top: 0;
+    color: var(--second-color);
+}
+
+footer{
+    background-color: var(--first-color);
+    padding: 2rem 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+}
+
+li{
+    padding: 5px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--second-color);
+}
+
+img{
+    height: 270px;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.fx{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.fxx{
+    background-color: var(--second-color);
+    border-radius: 15px;
+    margin-right: 17px;
+}
+
+.fxxs{
+    transition: 1s;
+    position: static;
+}
+
+.fxxs:hover{
+    transform: translate(0,-20px) scale(1.1);
+    position: static;
+}
+
+.bg-ab{
+    border: solid var(--fifth-color) 10px;
+    margin: 40px 150px 50px 150px;
+    padding: 15px 23px 40px 23px;
+    border-radius: 30px;
+    color: var(--first-color);
+    box-shadow:0 0 5px 8px var(--third-color);
+}
+.bg{
+    background-color: var(--fourth-color);
+    margin: 35px 150px 50px 150px;
+    padding: 10px 23px 40px 23px;
+    border-radius: 30px;
+    color: var(--fourth-color);
+    box-shadow:0 0 5px 8px var(--third-color);
+}
+h3{
+    color: #000;
+    margin-top: 5px;
+}
+
+.searchbox{
+    position: sticky;
+    top: 50%;
+    left: 37%;
+    transform: translate(-23%, -45%);
+    background: var(--second-color);
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px;
+    width: 750px;
+    margin-right: 90px;
+}
+.searchtxt{
+    width: 660px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    background-color: var(--second-color);
+    font-size: medium;
+}
+
+.searchbtn{
+    color: var(--first-color);
+}
+
+.searchbtn:hover{
+    color: var(--fourth-color);
+}
+
+.icon{
+    padding:0 10px 0 10px;
+}
+
+.RH{
+    background-color:var(--fifth-color); 
+    color: #FEFBF3; 
+    border-radius: 50px; 
+    padding: 0 10px 0 18px; 
+    width: 100px;
+}
+
+.RP{
+    color: #000; 
+    text-align: justify;
+}
+
+.star{
+    display: flexbox;
+    color: var(--first-color);
+}
